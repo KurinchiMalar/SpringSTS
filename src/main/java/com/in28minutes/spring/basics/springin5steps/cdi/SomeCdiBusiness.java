@@ -6,8 +6,8 @@ import javax.inject.Named;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-//@Component
-@Named
+@Component
+//@Named
 public class SomeCdiBusiness {
 	//@Autowired 
 	@Inject
