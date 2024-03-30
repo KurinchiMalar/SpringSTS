@@ -7,5 +7,9 @@ import org.springframework.stereotype.Component;
 @Component
 //@Named
 public class SomeCdiDao {
+	
+	public int[] getData() {
+		return new int[] {1,9,8};
+	}
 
 }
